@@ -1,1 +1,39 @@
 @import "tailwindcss";
+
+.body-class {
+    @apply bg-gradient-to-b from-slate-800 to-blue-700 min-h-screen flex flex-col items-center justify-center;
+}
+
+.first-section-class {
+    @apply flex flex-col items-center rounded-2xl p-6 md:p-10 lg:p-16 xl:p-20 m-6 md:m-10 shadow-lg shadow-slate-900/50 bg-gradient-to-r from-slate-900 to-blue-700 text-white;
+}
+
+.name-class {
+    @apply font-serif text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold not-italic text-center;
+}
+
+.info-name-class {
+    @apply tracking-wide mb-4 md:mb-6 lg:mb-8 text-center text-base md:text-lg lg:text-xl;
+}
+
+.info-info-name-class {
+    @apply font-sans text-sm md:text-base lg:text-lg xl:text-xl text-center max-w-4xl mb-6 md:mb-8 lg:mb-10;
+}
+.ul-class{
+    @apply p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-center mb-6 md:mb-8 lg:mb-10;
+}
+
+.li-class{
+    @apply p-5 bg-blue-600 hover:bg-white hover:text-black rounded-lg;
+}
+
+.second-section-class {
+    @apply p-10 text-white rounded-2xl shadow-lg shadow-slate-900/50 bg-gradient-to-r from-slate-900 to-blue-700;
+}
+.h1-second-section-class {
+    @apply text-2xl md:text-4xl lg:text-5xl font-bold not-italic text-center mb-6;
+}
+.div-class{
+    @apply p-5 bg-blue-600 hover:bg-white hover:text-black rounded-lg;
+}
+
